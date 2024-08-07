@@ -26,6 +26,20 @@ body {
     padding: 20px;
 }
 
+/* Photo Slot */
+.photo-left, .photo-right {
+    flex: 1;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.photo-left img, .photo-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
 /* Main Content */
 .main-content {
     flex: 2;
@@ -156,4 +170,29 @@ body {
 /* Media Query for devices with width less than 600px */
 @media (max-width: 600px) {
     .header h1 {
-        f
+        font-size: 2em;
+    }
+
+    .invitation h2, .location h2 {
+        font-size: 1.8em;
+    }
+
+    .location-button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .popup h2 {
+        font-size: 1.5em;
+    }
+
+    .popup input, .popup button {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .popup-content {
+        width: 95%;
+        padding: 20px;
+    }
+}
