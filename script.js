@@ -29,7 +29,7 @@ body {
 /* Main Content */
 .main-content {
     flex: 2;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for text readability */
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent background for text readability */
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -48,7 +48,7 @@ body {
 
 /* Invitation Box */
 .invitation, .location {
-    background: rgba(0, 0, 0, 0.6); /* Slightly darker background for boxes */
+    background: rgba(0, 0, 0, 0.2); /* Slightly darker background for boxes */
     border: 2px solid #FFD700; /* Gold border for boxes */
     border-radius: 15px;
     padding: 20px;
