@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Ulang Tahun</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body onload="showPopup()">
+    <div class="container">
+        <div class="photo-left">
+            <img src="left-photo.png" alt="Foto Kiri">
+        </div>
+        <div class="main-content">
+            <header class="header">
+                <h1>Undangan Ulang Tahun</h1>
+            </header>
+            <main class="main-content">
+                <section class="invitation">
+                    <h2 id="greeting">Halo!</h2>
+                    <p>Anda diundang untuk merayakan ulang tahun kami yang ke-2!</p>
+                    <p><strong>Tanggal:</strong> 10 Agustus 2024</p>
+                    <p><strong>Waktu:</strong> 16:00 WIB</p>
+                    <p><strong>Tempat:</strong> Lapangan Sention, Jakarta</p>
+                </section>
+                <section class="location">
+                    <h2>Lokasi Acara</h2>
+                    <p>Temukan lokasi acara kami menggunakan link berikut:</p>
+                    <a href="https://maps.app.goo.gl/mPgRJP8MrsDmuohE8" target="_blank" class="location-button">Lihat di Google Maps</a>
+                </section>
+            </main>
+            <footer class="footer">
+                <p>&copy; 2024 Undangan Ulang Tahun. "Reiga Bayanaka".</p>
+            </footer>
+        </div>
+        <div class="photo-right">
+            <img src="right-photo.png" alt="Foto Kanan">
+        </div>
+    </div>
+    
+    <!-- Pop-up -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Masukkan Nama Anda</h2>
+            <input type="text" id="nameInput" placeholder="Nama Anda">
+            <button onclick="submitName()">Kirim</button>
+        </div>
+    </div>
+</body>
+</html>
