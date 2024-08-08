@@ -46,6 +46,18 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.header h2 {
+    font-size: 2em;
+    color: #FFD700; /* Gold color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header h3 {
+    font-size: 1em;
+    color: #FFD700; /* Gold color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 /* Invitation Box */
 .invitation, .location {
     background: rgba(0, 0, 0, 0.2); /* Slightly darker background for boxes */
