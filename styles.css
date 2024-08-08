@@ -100,17 +100,6 @@ body {
     font-size: 0.9em;
 }
 
-/* Audio Player */
-.audio-player {
-    margin-top: 20px;
-}
-
-.audio-player audio {
-    width: 100%;
-    max-width: 500px; /* Limit the width of the audio player */
-    border-radius: 10px;
-}
-
 /* Media Query for devices with width less than 600px */
 @media (max-width: 600px) {
     .header h1 {
@@ -124,10 +113,5 @@ body {
     .location-button {
         font-size: 1em;
         padding: 10px 20px;
-    }
-
-    .audio-player audio {
-        width: 100%;
-        max-width: 100%; /* Ensure audio player fits screen width */
     }
 }
